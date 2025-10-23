@@ -1,0 +1,263 @@
+/* ==== Global Styles ==== */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ADE8F4; /* Non Photo Blue */
+    color: #03045E; /* Federal Blue */
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ==== Navbar ==== */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #CAF0F8; /* Light Cyan */
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-right: 20rem;
+    transition: transform 0.5s ease-in-out;
+}
+
+.logo:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
+.logo-highlight {
+    color: #0096C7; /* Blue Green */
+    font-weight: 800;
+}
+
+.logo-main {
+    color: #03045E; /* Federal Blue */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: #03045E;
+    font-weight: 500;
+    padding: 5px 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.nav-links li a:hover {
+    background-color: #48CAE4; /* Vivid Sky Blue */
+    color: #023E8A; /* Marian Blue */
+    border-radius: 24px; /* Oval effect */
+}
+
+/* ==== Social Icons ==== */
+.social-icons {
+    gap: 30px;
+}
+
+.social-icons a {
+    color: #03045E;
+    width: 3.5rem;
+    height: auto;
+    margin-left: 15px;
+    transition: color 0.3s ease;
+    gap: 30px;
+}
+
+.social-icons a svg {
+    width: 2rem;
+    height: auto;
+    gap: 50px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icons a svg:hover {
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+/* ==== Hero Section ==== */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    color: #023E8A; /* Marian Blue */
+    margin-bottom: 0;
+}
+
+.hero h4 {
+    display: inline-block;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font-size: 0.8rem;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1.2rem;
+}
+
+.hero p {
+    font-size: 1.1em;
+    margin: 15px 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #0077B6; /* Honolulu Blue */
+    color: white;
+    padding: 10px 20px;
+    margin-top: 1rem;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #48CAE4; /* Vivid Sky Blue */
+    color: #023E8A;
+    cursor: pointer;
+}
+
+
+#typing-text {
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-right: 3px solid #0077B6;
+  white-space: pre-line; /* Allows text to wrap to next line */
+  overflow: hidden;
+  width: fit-content;
+  margin: auto;
+  color: #03045E;
+}
+
+/* Hero section-2 */
+.hero-2 {
+    background-color: #90E0EF;
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+}
+
+.profile-text {
+    max-width: 700px;
+    height: auto;
+}
+
+.hero-2 h2 {
+    font-size: 2.5em;
+    color: #023E8A;
+    margin-bottom: 1.5rem;
+    margin-left: 10rem;
+    display: inline-block;
+}
+
+.hero-2 p {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #03045E;
+    margin-left: 10rem;
+    display: inline-block;
+    gap: 5px;
+}
+
+.profile-picture {
+    width: 320px;
+    height: 350px;
+    border-radius: 50%;
+    border: solid 2px black;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    margin-left: 5rem;
+    transition: transform 0.5s ease-in-out;
+}
+
+.profile-picture:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+
+}
+
+.profile-picture img {
+    width: 320px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Hero-3 */
+.hero-3 {
+    width: 100%;
+    height: 15rem;
+    background-color: #48CAE4;
+    display: flex;
+    align-items: center;
+}
+
+.quote svg {
+    display: inline-block;
+    width: 7rem;
+    height: auto;
+    margin-left: 10rem;
+    margin-bottom: 0;
+    transition: transform 0.3s ease-in-out;
+}
+
+.quote svg:hover {
+    transform: translateY(-4px);
+    cursor: pointer;
+}
+
+.quote h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #03045E;
+    margin-left: 16rem;
+    margin-bottom: 4rem;
+    margin-top: 0;
+    flex-wrap: wrap;
+}
+
+/* Footer */
+.hero-4 {
+    background-color: #00B4D8;
+    color: #03045E;
+    text-align: center;
+    width: 100%;
+    height: 6rem;
+}
+
+.hero-4 h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+    padding-top: 15px;
+}
+
+.mail {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.copyright {
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin: 1rem;
+}
